@@ -53,3 +53,13 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+@media screen and (max-width: 400px) {
+  .post {
+    margin: 20px 0px 0px 0px;
+    width: 95%;
+  }
+  .postImg {
+    width: 95%;
+  }
+}

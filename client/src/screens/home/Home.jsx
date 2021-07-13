@@ -10,7 +10,10 @@ function Home() {
             <Hero />
             <div className="home">
                 <Posts />
+                <div className="sidebar">
                 <Sidebar/>
+                </div>
+                
             </div>
         </>
     )
